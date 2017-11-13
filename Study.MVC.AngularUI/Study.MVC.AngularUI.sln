@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.MVC.AngularUI", "Study.MVC.AngularUI\Study.MVC.AngularUI.csproj", "{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study.MVC.AngularUI", "Study.MVC.AngularUI\Study.MVC.AngularUI.csproj", "{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Database", "Study.Database\Study.Database.csproj", "{F5558148-8A9E-42E7-AC05-3D05FEF84EB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50-UI", "50-UI", "{AAC1132A-045F-46CA-A4A1-3215FD3DA268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-Database", "10-Database", "{01C29ADD-609A-43BA-9DF6-54CEFEF93140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Database.xUnitTest", "Study.Database.xUnitTest\Study.Database.xUnitTest.csproj", "{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.MVC.Core", "Study.MVC.Core\Study.MVC.Core.csproj", "{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,27 @@ Global
 		{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5558148-8A9E-42E7-AC05-3D05FEF84EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5558148-8A9E-42E7-AC05-3D05FEF84EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5558148-8A9E-42E7-AC05-3D05FEF84EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5558148-8A9E-42E7-AC05-3D05FEF84EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92F18FFB-C2BA-4EB9-9E09-2140CF38E21F} = {AAC1132A-045F-46CA-A4A1-3215FD3DA268}
+		{F5558148-8A9E-42E7-AC05-3D05FEF84EB9} = {01C29ADD-609A-43BA-9DF6-54CEFEF93140}
+		{6BEF9404-30E5-4E23-9CF3-E7AD6C7595AA} = {01C29ADD-609A-43BA-9DF6-54CEFEF93140}
+		{9B67A2EE-CA9E-43A6-ACAD-FE27E81F6AA3} = {AAC1132A-045F-46CA-A4A1-3215FD3DA268}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFF957ED-781C-4238-9CE7-84949A711B1F}
